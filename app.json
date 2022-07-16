@@ -1,28 +1,26 @@
 {
   "expo": {
-    "name": "posmanager",
-    "slug": "posmanager",
-    "version": "1.0.0",
+    "name": "Kalaman Hikima",
+    "slug": "kalaman-hikima",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptiveicon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.kalamanhikima",
+      "permissions": [],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3056121864159997~9924198031"
       }
     },
     "web": {
